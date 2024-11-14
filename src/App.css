@@ -97,3 +97,17 @@ html , body {
   background-color: rgb(255, 255, 255);
   overflow: auto;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+  .app .task-container {
+    width: 90%;
+    box-shadow: 7px 7px 0px black;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title-container h1 {
+    font-size: 23px;
+  }
+}
